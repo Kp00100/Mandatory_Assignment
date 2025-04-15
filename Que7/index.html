@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loops, Operators & Conditions</title>
+</head>
+<body>
+  <h2>Open Console to See the Output</h2>
+  <script>
+    // For loop
+    for (let i = 1; i <= 5; i++) {
+      console.log("for loop iteration " + i);
+    }
+
+    // While loop
+    let j = 1;
+    while (j <= 5) {
+      console.log("while loop iteration " + j);
+      j++;
+    }
+
+    // Do...while loop
+    let k = 1;
+    do {
+      console.log("do-while loop iteration " + k);
+      k++;
+    } while (k <= 5);
+
+    // Operator and condition example
+    let num = 10;
+    if (num % 2 === 0) {
+      console.log(num + " is even");
+    } else {
+      console.log(num + " is odd");
+    }
+
+    // Ternary operator
+    let isWeekend = true;
+    let message = isWeekend ? "It's weekend!" : "It's weekday!";
+    console.log(message);
+  </script>
+</body>
+</html>

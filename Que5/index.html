@@ -1,0 +1,188 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Layout</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #a80077, #66ff00);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            gap: 30px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .large-box {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(to bottom right, orange, rgb(219, 17, 212));
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap; 
+            align-items: flex-start;
+            padding: 5px;
+            gap: 10px;
+        }
+        .small-box {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(to bottom right, blue, lightblue);
+            color: white;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            font-size: 10px;
+            border: 1px solid black;
+        }
+        .large{
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(to bottom right, orange, rgb(219, 17, 212));
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end; 
+            align-items: flex-start;
+            padding: 5px;
+            margin: 0;
+        }
+        .b{
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(to bottom right, orange, rgb(219, 17, 212));
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            justify-content: flex-end; 
+            padding: 5px;
+        }
+        .g{
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(to bottom right, orange, rgb(219, 17, 212));
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            padding: 5px;
+            gap: 10px;
+        }
+        .x{
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(to bottom right, orange, rgb(219, 17, 212));
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 5px;
+            gap: 10px;
+        }
+        .s{
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(to bottom right, orange, rgb(219, 17, 212));
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            padding: 5px;
+        }
+        .o{
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(to bottom right, orange, rgb(219, 17, 212));
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            padding: 5px;
+        }
+        .l{
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(to bottom right, orange, rgb(219, 17, 212));
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 5px;
+            justify-items: center;
+
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="large-box">
+                <div class="small-box">Box1</div>
+                <div class="small-box">Box2</div>
+                <div class="small-box">Box3</div>
+            </div>
+            <div class="large">
+                <div class="small-box">Box1</div>
+                <div class="small-box">Box2</div>
+                <div class="small-box">Box3</div>
+            </div>
+            <div class="l">
+                <div class="small-box">Box1</div>
+                <div class="small-box">Box2</div>
+                <div class="small-box">Box3</div>
+            </div>
+            <div class="b">
+                <div class="small-box">Box1</div>
+                <div class="small-box">Box2</div>
+                <div class="small-box">Box3</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="g">
+                <div class="small-box">Box1</div>
+                <div class="small-box">Box2</div>
+                <div class="small-box">Box3</div>
+            </div>
+            <div class="s">
+                <div class="small-box">Box1</div>
+                <div class="small-box">Box2</div>
+                <div class="small-box">Box3</div>
+            </div>
+            <div class="o">
+                <div class="small-box">Box1</div>
+                <div class="small-box">Box2</div>
+                <div class="small-box">Box3</div>
+            </div>
+            <div class="x">
+                <div class="small-box">Box1</div>
+                <div class="small-box">Box2</div>
+                <div class="small-box">Box3</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
